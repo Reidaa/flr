@@ -1,7 +1,7 @@
 # FLR
 
 ## Description
-FLR (From Left to Right) is a general purpose trading bot.
+FLR is a general purpose trading bot.
 
 ## READ BEFORE USE
 1. If you don't enable `TEST_MODE`, you will be using REAL money.
@@ -22,6 +22,11 @@ FLR (From Left to Right) is a general purpose trading bot.
         .\.venv/scripts/activate # windows
     
         pip install -r requirements.txt
+        ```
+    
+    - Docker
+        ```sh
+        TODO
         ```
 
 
@@ -61,9 +66,9 @@ FLR (From Left to Right) is a general purpose trading bot.
 
 ## 💥 Disclaimer
 
-All investment strategies and investments involve risk of loss. 
-**Nothing contained in this program, scripts, code or repositoy should be construed as investment advice.**
+All investment strategies and investments involve risk of loss. <br>
+**Nothing contained in this program, scripts, code or repositoy should be construed as investment advice.** <br>
 Any reference to an investment's past or potential performance is not, 
 and should not be construed as, a recommendation or as a guarantee of 
-any specific outcome or profit.
+any specific outcome or profit. <br>
 By using this program you accept all liabilities, and that no claims can be made against the developers or others connected with the program.
