@@ -1,0 +1,148 @@
+# select what to pair the coins to and pull all coins paired with PAIR_WITH
+PAIR_WITH: USDT
+
+# List of pairs to exclude
+EXCLUDED:
+  - EURUSDT
+  - GBPUSDT
+  - JPYUSDT
+  - USDUSDT
+  - DOWN
+  - UP
+
+# List of pairs to include
+SELECTED:
+  - 1INCH
+  - AAVE
+  - ADA
+  - ALGO
+#  - ALPHA
+#  - AR
+#  - ARRR
+#  - ATOM
+#  - AVAX
+#  - BAKE
+#  - BAT
+#  - BCD
+#  - BCH
+#  - BCHA
+#  - BNB
+#  - BNT
+#  - BSV
+#  - BTC
+#  - BTCB
+#  - BTCST
+#  - BTG
+#  - CAKE
+#  - CCXX
+#  - CEL
+#  - CELO
+#  - CHSB
+#  - COMP
+#  - CRV
+#  - CTC
+#  - DAI
+#  - DASH
+#  - DCR
+#  - DFI
+#  - DOT
+#  - EGLD
+#  - ENJ
+#  - EOS
+#  - ETC
+#  - ETH
+#  - FIL
+#  - FLOW
+#  - FTT
+#  - GRT
+#  - GT
+#  - HNT
+#  - HT
+#  - ICP
+#  - ICX
+#  - KCS
+#  - KLAY
+#  - KNC
+#  - KSM
+#  - LEO
+#  - LINK
+#  - LPT
+#  - LSK
+#  - LTC
+#  - LUNA
+#  - LUSD
+#  - MANA
+#  - MDX
+#  - MIOTA
+#  - MIR
+#  - MKR
+#  - NANO
+#  - NEAR
+#  - NEO
+#  - NEXO
+#  - OCEAN
+#  - OKB
+#  - OMG
+#  - ONT
+#  - ORC
+#  - PROM
+#  - PUNDIX
+#  - QNT
+#  - QTUM
+#  - RAY
+#  - RENBTC
+#  - RLC
+#  - RUNE
+#  - SNX
+#  - SOL
+#  - STORJ
+#  - STX
+#  - SUSHI
+#  - THETA
+#  - TTT
+#  - UMA
+#  - UNI
+#  - UST
+#  - VGX
+#  - WAVES
+#  - WBNB
+#  - WBTC
+#  - WRX
+#  - XMR
+#  - XRP
+#  - XTZ
+#  - XVS
+#  - XWC
+#  - YFI
+#  - ZEC
+#  - ZEN
+#  - ZRX
+
+# Total amount per trade
+QUANTITY: 15
+
+# Maximum number of coins to hold
+MAX_COINS: 7
+
+# the amount of time in MINUTES to calculate the difference from the current price
+TIME_DIFFERENCE: 2
+
+# Number of times to check for TP/SL during each TIME_DIFFERENCE Minimum 1
+RECHECK_INTERVAL: 10
+
+# the difference in % between the first and second checks for the price.
+CHANGE_IN_PRICE: 10
+
+# define in % when to sell a coin that's not making a profit
+STOP_LOSS: 2
+
+# define in % when to take profit on a profitable coin
+TAKE_PROFIT: .8
+
+# whether to use trailing stop loss or not; default is True
+USE_TRAILING_STOP_LOSS: True
+
+# when hit TAKE_PROFIT, move STOP_LOSS to TRAILING_STOP_LOSS percentage points below TAKE_PROFIT hence locking in profit
+# when hit TAKE_PROFIT, move TAKE_PROFIT up by TRAILING_TAKE_PROFIT percentage points
+TRAILING_STOP_LOSS: .4
+TRAILING_TAKE_PROFIT: .1

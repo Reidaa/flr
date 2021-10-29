@@ -1,0 +1,8 @@
+# Setting this to False will use REAL funds, use at your own risk
+TEST_MODE: True
+LOG_TRADES: True
+LOG_FILE: 'trades.txt'
+PYTHON_ENV: 'development' # production, development, test
+
+    
+  
